@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "HTML/CSS/JS editor made using React/Redux",
   "private": true,
+  "homepage": "http://amatsumoto1.github.io/html-css-js-editor",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amatsumoto1/html-css-js-editor.git"
@@ -40,7 +41,7 @@
     "prestart:prod": "npm run build",
     "start:prod": "serve -s build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
